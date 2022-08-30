@@ -1,5 +1,5 @@
 /* Importaciones de modulos */
-const express = require('express');
+const express = require('express')
 const morgan = require('morgan');
 
 const videosRoutes = require('./routes/videos.routes');
