@@ -1,3 +1,4 @@
+/* Se exportan las credenciales para usar la data base */
 module.exports={
     HOST: '31.220.104.219',
     DB: 'u917498081_my_db',
