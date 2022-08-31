@@ -54,7 +54,7 @@ const updateVideo=async(req, res)=>{
             res.status(400).json({message: 'Bad request. Make sure to fill all fields.'});
         }
         const connection = await getConnection();
-        const result=await connection.query('UPDATE videos SET `video_name`=?, `url`=?, `duration`=?, `views_number`=?, `video_type`=? WHERE id=?', [video_name, url, duration, views_number, video_type])
+        const result=await connection.query('UPDATE videos SET `video_name`=?, `url`=?, `duration`=?, `views_number`=?, `video_type`=? WHERE id=?', [video_name, url, duration, views_number, video_type, id])
         res.json(result);
     }catch(error){
         res.status(500);
