@@ -14,8 +14,13 @@ app.set('port', port);
 app.use(morgan('dev'));
 app.use(express.json());
 
+/* Root Endpoint */
+app.get('/', (req, res)=>{
+    res.send('Api videos by Cristopher Rubio');
+});
+
 /* Importar videoRoutes */
-app.use("/api-restfull/videos", videosRoutes);
+app.use("/videos", videosRoutes);
 
 /* Exportar app */
 module.exports = app;
