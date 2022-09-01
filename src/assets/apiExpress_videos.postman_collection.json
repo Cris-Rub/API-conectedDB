@@ -12,15 +12,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{domain}}:{{port}}/api-restfull/videos/",
+					"raw": "{{domain-local}}:{{port}}/videos",
 					"host": [
-						"{{domain}}"
+						"{{domain-local}}"
 					],
 					"port": "{{port}}",
 					"path": [
-						"api-restfull",
-						"videos",
-						""
+						"videos"
 					]
 				}
 			},
@@ -32,13 +30,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{domain}}:{{port}}/api-restfull/videos/2",
+					"raw": "{{domain-local}}:{{port}}/videos/2",
 					"host": [
-						"{{domain}}"
+						"{{domain-local}}"
 					],
 					"port": "{{port}}",
 					"path": [
-						"api-restfull",
 						"videos",
 						"2"
 					]
@@ -61,13 +58,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{domain}}:{{port}}/api-restfull/videos/",
+					"raw": "{{domain-local}}:{{port}}/videos/",
 					"host": [
-						"{{domain}}"
+						"{{domain-local}}"
 					],
 					"port": "{{port}}",
 					"path": [
-						"api-restfull",
 						"videos",
 						""
 					]
@@ -90,13 +86,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{domain}}:{{port}}/api-restfull/videos/5",
+					"raw": "{{domain-local}}:{{port}}/videos/5",
 					"host": [
-						"{{domain}}"
+						"{{domain-local}}"
 					],
 					"port": "{{port}}",
 					"path": [
-						"api-restfull",
 						"videos",
 						"5"
 					]
@@ -110,13 +105,12 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{domain}}:{{port}}/api-restfull/videos/5",
+					"raw": "{{domain-local}}:{{port}}/videos/5",
 					"host": [
-						"{{domain}}"
+						"{{domain-local}}"
 					],
 					"port": "{{port}}",
 					"path": [
-						"api-restfull",
 						"videos",
 						"5"
 					]
