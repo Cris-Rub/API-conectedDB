@@ -16,7 +16,7 @@ Para obtener todos los videos disponibles usamos:
 - **GET** https://infinite-sierra-56428.herokuapp.com/videos
 
 Si desea encontrar la información un video en especifico solo agregue el **ID** en la petición:
-- **GET** https://infinite-sierra-56428.herokuapp.com/videos/"id del video"
+- **GET** https://infinite-sierra-56428.herokuapp.com/videos/ "id del video"
 
 ### POST
 Podemos agregar un video con la petición de **POST**, solo asegurese de llenar todos los datos solicitados correctamente:
@@ -30,8 +30,8 @@ Podemos agregar un video con la petición de **POST**, solo asegurese de llenar 
 
 ### PUT
 Si desea editar la información de algun video ya publicado utilice la petición **PUT**. Debera incluir el **ID** unico del video y la información a editar.
-- **PUT** https://infinite-sierra-56428.herokuapp.com/videos/"id del video"
+- **PUT** https://infinite-sierra-56428.herokuapp.com/videos/ "id del video"
 
 ### DEL
 Para eliminar por completo un video basta con utilizar la petición **PUT**, especificando la **ID** del video a eliminar.
-- **PUT** https://infinite-sierra-56428.herokuapp.com/videos/"id del video"
+- **PUT** https://infinite-sierra-56428.herokuapp.com/videos/ "id del video"
